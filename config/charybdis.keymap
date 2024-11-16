@@ -49,12 +49,12 @@
 
         number {
             bindings = <
-&kp TILDE         &kp EXCLAMATION  &kp HASH      &kp DOLLAR    &kp DOLLAR     &kp PERCENT       &kp CARET        &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE
-&kp GRAVE         &kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4   &kp LBKT          &kp RBKT         &kp F1         &kp F2        &kp F3                &kp F4                 &kp DEL
-&kp LEFT_CONTROL  &kp NUMBER_5     &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8   &kp LEFT_BRACE    &kp RIGHT_BRACE  &kp F5         &kp F6        &kp F7                &kp F8                 &kp PAGE_UP
-&kp LEFT_WIN      &kp NUMBER_9     &kp NUMBER_0  &kp MINUS     &kp EQUAL      &kp RS(GRAVE)     &kp TILDE        &kp F9         &kp F10       &kp F11               &kp F12                &kp PAGE_DOWN
-                                                 &kp LEFT_WIN  &kp LC(LCTRL)  &trans            &kp ENTER        &kp BACKSPACE
-                                                               &none          &none             &trans
+&kp TILDE         &kp EXCLAMATION  &kp HASH      &kp DOLLAR    &kp DOLLAR        &kp PERCENT       &kp CARET        &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE
+&kp GRAVE         &kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4      &kp LBKT          &kp RBKT         &kp F1         &kp F2        &kp F3                &kp F4                 &kp DEL
+&kp LEFT_CONTROL  &kp NUMBER_5     &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8      &kp LEFT_BRACE    &kp RIGHT_BRACE  &kp F5         &kp F6        &kp F7                &kp F8                 &kp PAGE_UP
+&kp LEFT_WIN      &kp NUMBER_9     &kp NUMBER_0  &kp MINUS     &kp EQUAL         &kp RS(GRAVE)     &kp TILDE        &kp F9         &kp F10       &kp F11               &kp F12                &kp PAGE_DOWN
+                                                 &kp LEFT_WIN  &kp LEFT_CONTROL  &trans            &kp ENTER        &kp BACKSPACE
+                                                               &none             &none             &trans
             >;
         };
 
