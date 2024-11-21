@@ -60,12 +60,12 @@
 
         Mouse {
             bindings = <
-&none        &none        &none           &none       &none      &none        &none       &none       &none      &none      &none   &none
-&none        &bootloader  &bt BT_CLR_ALL  &bt BT_CLR  &none      &trans       &bt BT_PRV  &bt BT_NXT  &trans     &trans     &trans  &none
-&none        &trans       &trans          &trans      &trans     &none        &none       &trans      &mkp MCLK  &trans     &trans  &none
-&bootloader  &trans       &trans          &trans      &trans     &trans       &trans      &mkp LCLK   &trans     &mkp RCLK  &trans  &trans
-                                          &trans      &mkp LCLK  &mkp RCLK    &mkp RCLK   &mkp LCLK
-                                                      &none      &trans       &trans
+&none        &none       &none           &none   &none      &none        &none       &none       &none      &none      &none   &none
+&none        &bt BT_CLR  &bt BT_CLR_ALL  &trans  &none      &trans       &bt BT_PRV  &bt BT_NXT  &trans     &trans     &trans  &none
+&none        &trans      &trans          &trans  &trans     &none        &none       &trans      &mkp MCLK  &trans     &trans  &none
+&bootloader  &trans      &trans          &trans  &trans     &trans       &trans      &mkp LCLK   &trans     &mkp RCLK  &trans  &trans
+                                         &trans  &mkp LCLK  &mkp RCLK    &mkp RCLK   &mkp LCLK
+                                                 &none      &trans       &trans
             >;
         };
     };
